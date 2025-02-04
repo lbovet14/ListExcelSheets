@@ -1,6 +1,7 @@
 # ListExcelSheets  
-Browse the current directory for Excel files, open them and List sheets  
-Usage:  
-- Run the script in the directory containing the Excel files.  
-- It will print the list of files and their sheet names to the console.  
-- py H:\Python\ListExcelSheets.py > list.txt  
+Browse the given directory (arg1) for Excel files and find the given sheet (arg2)  
+Create an Excel Outup file
+- List all found files and sheets in a summary sheeet
+- Save all found sheets 
+Usage: python script.py <directory> <sheet_name>  
+example:  py \\hpserv-ubuntu.home\Laurent\Computers\Programming\Python\ListExcelSheets2.py \\hpserv-ubuntu.home\Laurent\Impots Suivi
